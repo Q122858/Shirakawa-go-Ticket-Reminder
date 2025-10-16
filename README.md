@@ -1,4 +1,3 @@
-# Shirakawa-go-Ticket-Reminder
 # Ticket Notifier
 
 使用 Python 製作的票券通知小工具  
