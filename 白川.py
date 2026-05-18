@@ -35,7 +35,7 @@ while True:
                 if int(article['data-yyyymmdd']) > 20240201 and int(article['data-yyyymmdd']) <20240230:
                     print(article['data-yyyymmdd'])
                     headers = {
-                "Authorization": "Bearer " + "xj0DjDUh6ZJKdyjfKUfzuPfxUXGi5prfYfR7Ar9WjJW",
+                "Authorization": "Bearer " + line_token,
                 "Content-Type": "application/x-www-form-urlencoded"
                     }
                 params = {"message": f"Ｂコース 展望台シャトルチケット付き白川郷ライトアップバス\n https://secure.j-bus.co.jp/hon/Tour/SeatsAvailability?groupCode=210201&routeCode=0119&moveCode=0001&readOnly=false \n {article['data-yyyymmdd']} {a}有位置"}
@@ -55,7 +55,7 @@ while True:
             if int(article['data-yyyymmdd']) > 20240201 and int(article['data-yyyymmdd']) <20240230:
                 print(article['data-yyyymmdd'])
                 headers = {
-                "Authorization": "Bearer " + "xj0DjDUh6ZJKdyjfKUfzuPfxUXGi5prfYfR7Ar9WjJW",
+                "Authorization": "Bearer " + line_token,
                 "Content-Type": "application/x-www-form-urlencoded"
                     }
                 params = {"message": f"Ｂコース 展望台シャトルチケット付き白川郷ライトアップバス\n https://secure.j-bus.co.jp/hon/Tour/SeatsAvailability?groupCode=210201&routeCode=0119&moveCode=0001&readOnly=false \n {article['data-yyyymmdd']} {a}有位置"}
@@ -74,7 +74,7 @@ while True:
             if int(article['data-yyyymmdd']) > 20240201 and int(article['data-yyyymmdd']) <20240230:
                 print(article['data-yyyymmdd'])
                 headers = {
-                "Authorization": "Bearer " + "xj0DjDUh6ZJKdyjfKUfzuPfxUXGi5prfYfR7Ar9WjJW",
+                "Authorization": "Bearer " + line_token,
                 "Content-Type": "application/x-www-form-urlencoded"
                     }
                 params = {"message": f"Ｂコース 展望台シャトルチケット付き白川郷ライトアップバス\n https://secure.j-bus.co.jp/hon/Tour/SeatsAvailability?groupCode=210201&routeCode=0119&moveCode=0001&readOnly=false \n {article['data-yyyymmdd']} {a}有位置"}
@@ -94,7 +94,7 @@ while True:
             if int(article['data-yyyymmdd']) > 20240201 and int(article['data-yyyymmdd']) <20240230:
                 print(article['data-yyyymmdd'])
                 headers = {
-                    "Authorization": "Bearer " + "xj0DjDUh6ZJKdyjfKUfzuPfxUXGi5prfYfR7Ar9WjJW",
+                    "Authorization": "Bearer " + line_token,
                     "Content-Type": "application/x-www-form-urlencoded"
                     }
                 params = {"message": f"コースS　白川郷ライトアップバス（高岡発：展望台入場チケット付きコース）\n https://secure.j-bus.co.jp/hon/Tour/SeatsAvailability?groupCode=180009&routeCode=0401&moveCode=0001&readOnly=false \n {article['data-yyyymmdd']}有位置"}
