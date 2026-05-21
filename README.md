@@ -1,4 +1,5 @@
-# 白川鄉點燈巴士票務監控工具 (Shirakawa-go Ticket Reminder)
+# 白川鄉點燈巴士票務監控工具 
+(Shirakawa-go Ticket Reminder)
 
 這個專案是一個基於 Python 實作的網頁自動化工具，旨在解決人工頻繁刷新特定旅遊票務網站（如日本白川鄉點燈活動巴士票）以搶購稀有票券的痛點。
 
